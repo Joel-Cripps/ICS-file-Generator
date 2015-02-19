@@ -30,11 +30,12 @@ def randomAttendee():
                       ]
 
     randx = random.randint(1,len(dictofAttendee))
-
+    for i,j in dictofAttendee.iteritems():
+        print i,j
     #print randx
-    print dictofAttendee.fromkeys()
-    print dictofAttendee.keys()
-    return dictofAttendee.keys()
+    #print dictofAttendee.fromkeys()
+    #print dictofAttendee.keys()
+    #return dictofAttendee.keys()
 
 def randomGroup():
     pass
